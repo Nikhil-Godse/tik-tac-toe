@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+#tik {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tac {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.toe{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffff67;
+}
+
+.reset, #new {
+    height: 5vmin;
+    width: 12vmin;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+
+.msg-cont{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+#XWin{
+    float: left;
+    height: 3vmin;
+    width: 10vmin;
+    border-radius: 1rem;
+    background-color: #F05941;
+    color: white;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+#YWin{
+    border-radius: 1rem;
+    height: 3vmin;
+    width: 10vmin;
+    background-color: #872341;
+    color: white;
+    float: right;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+#draw{
+    border-radius: 1rem;
+    height: 3vmin;
+    width: 10vmin;
+    background-color: #872341;
+    color: white;
+    margin-right: 2rem;
+    text-align: center;
+    margin-left: 48%;
+}

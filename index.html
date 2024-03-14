@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tac Toe</title>
+    <link rel="stylesheet" href="TikTacToe.css">
+</head>
+<body>
+    <header>
+        <h1>Tik Tac Toe</h1>
+        <br>
+        <h4 id="draw">Draw: 0</h4>
+        <br>
+        <h4 id="XWin">X_Win: 0</h4>
+        <h4 id="YWin">O_Win: 0</h4>
+        <br>
+    </header>
+    <main>
+        <div class="msg-cont hide">
+            <p id="msg">Winner</p>
+            <button id="new">New Game</button>
+        </div>
+        <div id="tik">
+            <div class="tac">
+                <button class="toe" style="color: rgb(135, 35, 65);"></button>
+                <button class="toe" style="color: rgb(240, 89, 65);"></button>
+                <button class="toe" style="color: rgb(135, 35, 65);"></button>
+                <button class="toe" style="color: rgb(240, 89, 65);"></button>
+                <button class="toe" style="color: rgb(135, 35, 65);"></button>
+                <button class="toe" style="color: rgb(240, 89, 65);"></button>
+                <button class="toe" style="color: rgb(135, 35, 65);"></button>
+                <button class="toe" style="color: rgb(240, 89, 65);"></button>
+                <button class="toe" style="color: rgb(135, 35, 65);"></button>
+            </div>
+        </div>
+        <button class="reset"><b>Reset Game</b></button>
+    </main>
+<script src="TikTacToe.js"></script>
+</body>
+</html>
